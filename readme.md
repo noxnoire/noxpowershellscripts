@@ -1,1 +1,1 @@
-powershell & ([scriptblock]::Create((iwr http://127.0.0.1:8000/runxsb.ps1))) %command%
+powershell & ([scriptblock]::Create((iwr https://raw.githubusercontent.com/noxnoire/noxpowershellscripts/refs/heads/main/xsb.ps1))) %command%
